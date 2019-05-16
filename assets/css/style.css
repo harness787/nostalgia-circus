@@ -65,6 +65,34 @@ body {
 /*--/ABOUT--*/
 
 /*--UPCOMING SHOWS--*/
-.next-show {
+
+.shows-text {
     
+}
+
+.shows-container {
+    display: block;
+}
+
+.link-color {
+    
+}
+
+.shows-vh {
+    height: 65vh;
+    
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 100%;
+    width: 100%;
 }
