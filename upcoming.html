@@ -12,11 +12,10 @@
 </head>
 
 <body>
+    
     <!--MENU-->
-
     <header>
-        <nav class="navbar navbar-light navbar-expand-sm sticky-top load">
-
+        <nav class="navbar navbar-light navbar-expand-sm sticky-top">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/tent.png" alt="logo" style="width:40px;">
             </a>
@@ -42,41 +41,41 @@
 
     <body>
         <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-md-12 text-center">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th scope="col">Date</th>
-                                <th scope="col">Time</th>
-                                <th scope="col">Location</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Filler</th>
-                                <td>Filler</td>
-                                <td>Filler</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Filler</th>
-                                <td>Filler</td>
-                                <td>Filler</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Filler</th>
-                                <td>Filler</td>
-                                <td>Filler</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="row">
+                <div class="col next-show">
+                    <h1>Next Show</h1>
                 </div>
             </div>
         </div>
 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=the%20brick%20room&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 100%;
+                                width: 100%;
+                            }
+
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none!important;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </html>
+
+</html>

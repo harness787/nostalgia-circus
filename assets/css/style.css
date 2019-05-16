@@ -1,7 +1,5 @@
-
-
-
-html, body {
+html,
+body {
     overflow-x: hidden;
     min-height: 100%;
 }
@@ -15,6 +13,7 @@ html, body {
 
 
 /*--MENU--*/
+
 .load {
     animation: bg 2.0s;
     -o-animation: bg 2.0s;
@@ -22,10 +21,8 @@ html, body {
     -webkit-animation: bg 2.0s;
 }
 
+
 /*--/MENU--*/
-
-
-
 
 /*--BG IMAGE/ARROW--*/
 
@@ -40,7 +37,7 @@ html, body {
     -o-animation: bg 2.5s;
     -moz-animation: bg 2.5s;
     -webkit-animation: bg 2.5s;
- 
+
 }
 
 @keyframes bg {
@@ -55,12 +52,19 @@ html, body {
 /*--/BG IMAGE/ARROW--*/
 
 /*--ABOUT--*/
+
 .about {
     background-color: #C8C8C8;
     color: white;
     font-size: 10vh;
     text-align: center;
     height: 100vh;
-    
+
 }
 
+/*--/ABOUT--*/
+
+/*--UPCOMING SHOWS--*/
+.next-show {
+    
+}
