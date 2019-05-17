@@ -38,7 +38,11 @@ body {
     transform: scale(1.05);
 }
 
-/*--ANIMATIONS/TRANSITIONS--*/
+.music-animation:hover {
+    transform: scale(1.05);
+}
+
+/*--/ANIMATIONS/TRANSITIONS--*/
 
 /*--MENU--*/
 
@@ -47,6 +51,8 @@ body {
     -o-animation: bg 2.0s;
     -moz-animation: bg 2.0s;
     -webkit-animation: bg 2.0s;
+    
+    
 }
 
 /*--/MENU--*/
@@ -69,6 +75,24 @@ body {
 
 
 /*--/BG IMAGE--*/
+
+/*--MUSIC--*/
+
+.music-fade {
+    animation: bg 1.5s;
+    -o-animation: bg 1.5s;
+    -moz-animation: bg 1.5s;
+    -webkit-animation: bg 1.5s;
+}
+
+
+.music-animation {
+    transition: transform .3s;
+}
+
+
+
+/*--/MUSIC--*/
 
 /*--UPCOMING SHOWS--*/
 
