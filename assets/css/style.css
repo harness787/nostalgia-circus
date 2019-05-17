@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,800|Fjalla+One&display=swap');
+/*--GENERAL--*/
 
 html,
 body {
@@ -8,13 +9,36 @@ body {
     font-weight: 300;
 }
 
-
-
 .row {
     text-align: center;
 }
 
+/*--/GENERAL--*/
 
+/*--ANIMATIONS/TRANSITIONS--*/
+
+@keyframes bg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+.shows-container:hover {
+    transform: scale(1.1);
+}
+
+.shows-container-two:hover {
+    transform: scale(1.1);
+}
+
+.mapouter:hover {
+    transform: scale(1.05);
+}
+
+/*--ANIMATIONS/TRANSITIONS--*/
 
 /*--MENU--*/
 
@@ -25,10 +49,9 @@ body {
     -webkit-animation: bg 2.0s;
 }
 
-
 /*--/MENU--*/
 
-/*--BG IMAGE/ARROW--*/
+/*--BG IMAGE--*/
 
 .bg {
     background: url("../images/bg.png");
@@ -44,18 +67,17 @@ body {
 
 }
 
-@keyframes bg {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1.0;
-    }
-}
 
-/*--/BG IMAGE/ARROW--*/
+/*--/BG IMAGE--*/
 
 /*--UPCOMING SHOWS--*/
+
+.fade-wrap {
+    animation: bg .75s;
+    -o-animation: bg .75s;
+    -moz-animation: bg .75s;
+    -webkit-animation: bg .75s;
+}
 
 .shows-text {
     font-family: 'Fjalla One', sans-serif;
@@ -63,15 +85,12 @@ body {
     border-bottom: 2px solid;
     border-top: 2px solid;
     margin-bottom: 50px;
- 
-
-
 }
 
 .info-text {
     font-size: 18px;
     font-weight: 400;
-   
+
 }
 
 .date {
@@ -82,10 +101,6 @@ body {
 .bottom-text {
     font-weight: 400;
     font-style: italic;
-}
-
-.link-text {
-    
 }
 
 .shows-container {
@@ -107,14 +122,11 @@ body {
 
 }
 
-.shows-container:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+/*--MAP/CONTACT TEXT--*/
 
-.shows-container-two:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.nextshow-pad {
+    padding: 3rem 3rem 1rem;
 }
-
 
 .mapouter {
     position: relative;
@@ -124,13 +136,13 @@ body {
     transition: transform .2s;
 }
 
-.mapouter:hover {
-  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
 .gmap_canvas {
     overflow: hidden;
     background: none!important;
     height: 100%;
     width: 100%;
 }
+
+/*--/MAP/CONTACT TEXT--*/
+
+/*--/UPCOMING SHOWS--*/
