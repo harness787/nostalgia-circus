@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 
-/*--/GENERAL--*/
+
 
 /*--ANIMATIONS/TRANSITIONS--*/
 
@@ -46,9 +46,8 @@ body {
     color: #adadad;
 }
 
-/*--/ANIMATIONS/TRANSITIONS--*/
 
-/*--MENU--*/
+/*--NAVBAR--*/
 
 .load {
     animation: bg 2.0s;
@@ -61,7 +60,6 @@ body {
     size: 100%;
 }
 
-/*--/MENU--*/
 
 /*--BG IMAGE--*/
 
@@ -80,8 +78,6 @@ body {
 }
 
 
-/*--/BG IMAGE--*/
-
 /*--MUSIC--*/
 
 .music-fade {
@@ -96,9 +92,6 @@ body {
     transition: transform .3s;
 }
 
-
-
-/*--/MUSIC--*/
 
 /*--UPCOMING SHOWS--*/
 
@@ -152,6 +145,7 @@ body {
 
 }
 
+
 /*--MAP/CONTACT TEXT--*/
 
 .nextshow-pad {
@@ -173,7 +167,6 @@ body {
     width: 100%;
 }
 
-/*--/MAP/TEXT--*/
 
 /*--CONTACT US--*/
 
@@ -197,4 +190,3 @@ body {
     -moz-animation: bg .5s;
     -webkit-animation: bg .5s;
 }
-/*--/UPCOMING SHOWS--*/
