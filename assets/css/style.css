@@ -55,8 +55,10 @@ body {
     -o-animation: bg 2.0s;
     -moz-animation: bg 2.0s;
     -webkit-animation: bg 2.0s;
+}
 
-
+.navbar-nost {
+    size: 100%;
 }
 
 /*--/MENU--*/
