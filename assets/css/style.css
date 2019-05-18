@@ -17,15 +17,6 @@ body {
 
 /*--ANIMATIONS/TRANSITIONS--*/
 
-@-webkit-keyframes bg {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1.0;
-    }
-}
-
 @keyframes bg {
     0% {
         opacity: 0;
@@ -36,27 +27,19 @@ body {
 }
 
 .shows-container:hover {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .shows-container-two:hover {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .mapouter:hover {
-    -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .music-animation:hover {
-    -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .fab:hover {
@@ -106,11 +89,7 @@ body {
 
 
 .music-animation {
-    -webkit-transition: -webkit-transform .3s;
-    transition: -webkit-transform .3s;
-    -o-transition: transform .3s;
     transition: transform .3s;
-    transition: transform .3s, -webkit-transform .3s;
 }
 
 
@@ -153,11 +132,7 @@ body {
     padding-bottom: 50px;
     padding-top: 50px;
     width: 85%;
-    -webkit-transition: -webkit-transform .25s;
-    transition: -webkit-transform .25s;
-    -o-transition: transform .25s;
     transition: transform .25s;
-    transition: transform .25s, -webkit-transform .25s;
 }
 
 .shows-container-two {
@@ -166,11 +141,7 @@ body {
     padding-bottom: 50px;
     padding-top: 50px;
     width: 85%;
-    -webkit-transition: -webkit-transform .2s;
-    transition: -webkit-transform .2s;
-    -o-transition: transform .2s;
     transition: transform .2s;
-    transition: transform .2s, -webkit-transform .2s;
 
 }
 
@@ -186,11 +157,7 @@ body {
     text-align: right;
     height: 100%;
     width: 100%;
-    -webkit-transition: -webkit-transform .2s;
-    transition: -webkit-transform .2s;
-    -o-transition: transform .2s;
     transition: transform .2s;
-    transition: transform .2s, -webkit-transform .2s;
 }
 
 .gmap_canvas {
@@ -210,8 +177,6 @@ body {
 .fab {
     color: black;
     padding-top: 10px;
-    -webkit-transition: color .15s;
-    -o-transition: color .15s;
     transition: color .15s;
 }
 
