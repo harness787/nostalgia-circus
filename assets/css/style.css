@@ -73,7 +73,7 @@ body {
     -webkit-animation: bg 2.5s;
 }
 
-/*--ARROW--*/
+/*--ARROW | CREDIT TO https://codepen.io/bewley/pen/revRQv--*/
 
 @-moz-keyframes bounce {
     0%,
@@ -165,9 +165,7 @@ i {
 /*--ABOUT--*/
 
 .about-style {
-    height: 100vh;
-    width: 90%;
-
+    height: 95vh;
 }
 
 
