@@ -6,13 +6,10 @@ This project is a website for the band Nostalgia Circus based out of Conway, AR.
  
 ## UX
 
-My goal for the UX in this wwebsite was to design the website as to be attractive on all devices with an emphasis on a minimalist style and responisve elements for desktop users. This website is eventually planned to be used for in-site booking, so it was important to me that the site be easy to navigate while also being attractive. 
+My goal for the UX in this website was to design the website as to be attractive on all devices with an emphasis on a minimalist style and responisve elements for desktop users. This website is eventually planned to be used for in-site booking, so it was important to me that the site be easy to navigate while also being attractive. 
 
-When designing this site, I ended up straying quite a bit from my initial plan for the UX. I elected to not include an about section due to the fact that it simply wasn't necessary and cluttered the website. I also vertically aligned the embedded material in the songs tab rather than aligning them vertically
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+When designing this site, I ended up straying quite a bit from my initial plan for the UX. I elected to align many items vertically rather than horizontally as I previously planned, I added a google maps function, and the about section looks very different than what I initially planned.
+I wanted to provide basic infomation on the band for those new to them, information for fans looking to see their shows, and a way for people to contact the band if they have questions or want to book the band for a gig.
 
 *Wireframes:* 
 - [Desktop Wireframes](https://imgur.com/a/V1qZIkq)
@@ -22,16 +19,8 @@ In particular, as part of this section we recommend that you provide a list of U
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+On the landing page, the user lands on a fullscreen background of a logo with a bouncing arrow taken from a [codepen](https://codepen.io/bewley/pen/revRQv). As the screen scrolls, the elements on the screen fade thanks to help from [this]( https://www.youtube.com/watch?time_continue=55&v=-_ojaBSxhmk) video. The navbar changes from fixed to staic on screens above 1475px. This is because the navbar interferes with the text on the navbar and having a solid color navbar makes for worse UX. In order to have the about page be easy to navigate despite the static navbar, I added an arrow that appears in the bottom right of the screen that allows the user to transition back to the top of the page thanks to the help of [html-online.org](https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/). This arrow dissapears when the screen is under 1475px in width due to it not being necessary. 
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 - Another feature idea
 
