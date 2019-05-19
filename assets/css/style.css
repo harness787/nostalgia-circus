@@ -62,7 +62,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 1525px) {
+@media only screen and (min-width: 1475px) {
     .navbar {
         position: static;
     }
@@ -206,7 +206,7 @@ i {
 
 /*--BACK TO TOP ARROW |  CREDIT TO https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/--*/
 
-@media only screen and (min-width: 1525px) {
+@media only screen and (min-width: 1475px) {
     #back2Top {
         width: 25px;
         line-height: 25px;
