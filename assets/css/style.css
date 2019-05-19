@@ -73,12 +73,101 @@ body {
     -webkit-animation: bg 2.5s;
 }
 
+/*--ARROW--*/
+
+@-moz-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+.below {
+    height: 20px;
+}
+
+i {
+    display: block;
+    color: #6c757d;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+
 /*--ABOUT--*/
 
 .about-style {
     height: 100vh;
     width: 90%;
-    
+
 }
 
 
@@ -155,7 +244,9 @@ body {
 .nextshow-pad {
     padding: 3rem 3rem 1rem;
 }
+
 /*--MAP | CREDIT: https://www.embedgooglemap.net---*/
+
 .mapouter {
     position: relative;
     text-align: right;
