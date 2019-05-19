@@ -31,8 +31,17 @@ The last page has a [bootstrap](https://getbootstrap.com) contact form and has i
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- HTML
+- CSS
+- JS
+- JQuery
+- [Bootstrap](https://getbootstrap.com)
+- [Soundcloud embed tool](https://soundcloud.com)
+- [Google map embed](https://www.embedgooglemap.net)
+- [HTML Validator](https://validator.w3.org)
+- [Codepen](https://codepen.io/bewley/pen/revRQv) by [Will Bewley](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug) 
+- [Scroll activated fade animation](https://youtu.be/-_ojaBSxhmk) by [Rinkans](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug)
+- [Scroll activated arrow](https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/) by [html-online.com](https://html-online.com)
 
 
 ## Testing
