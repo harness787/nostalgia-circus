@@ -34,14 +34,23 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - HTML
 - CSS
 - JS
+    * Used for landing page elements
 - JQuery
+    * Used for landing page elements
 - [Bootstrap](https://getbootstrap.com)
+    * Used to speed up development
 - [Soundcloud embed tool](https://soundcloud.com)
+    * Used to display music on site in a ux-friendly way
 - [Google map embed](https://www.embedgooglemap.net)
+    * Used to show a location for the band's next show
 - [HTML Validator](https://validator.w3.org)
+    * Used to correct errors in HTML code
 - [Codepen](https://codepen.io/bewley/pen/revRQv) by [Will Bewley](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug) 
+    * Used to improve UX on landing page 
 - [Scroll activated fade animation](https://youtu.be/-_ojaBSxhmk) by [Rinkans](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug)
+    * Used to improve UX on landing page
 - [Scroll activated arrow](https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/) by [html-online.com](https://html-online.com)
+    * Used to improve UX on landing page 
 
 
 ## Testing
