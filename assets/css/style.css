@@ -4,7 +4,6 @@
 html,
 body {
     overflow-x: hidden;
-    min-height: 100%;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
 }
@@ -12,8 +11,6 @@ body {
 .row {
     text-align: center;
 }
-
-
 
 /*--ANIMATIONS/TRANSITIONS--*/
 
@@ -65,7 +62,7 @@ body {
 
 .bg {
     background: url("../images/bg.png");
-    height: 90vh;
+    height: 100vh;
     background-attachment: fixed;
     background-position: right 50% bottom 50%;
     background-repeat: no-repeat;
@@ -74,7 +71,14 @@ body {
     -o-animation: bg 2.5s;
     -moz-animation: bg 2.5s;
     -webkit-animation: bg 2.5s;
+}
 
+/*--ABOUT--*/
+
+.about-style {
+    height: 100vh;
+    width: 90%;
+    
 }
 
 

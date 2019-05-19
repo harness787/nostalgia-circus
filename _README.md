@@ -5,13 +5,16 @@ User-Centric Frontend Development project for Code Institute.
 This project is a website for the band Nostalgia Circus based out of Conway, AR.  
  
 ## UX
- 
+
+My goal for the UX in this wwebsite was to design the website as to be attractive on all devices with an emphasis on a minimalist style and responisve elements for desktop users. This website is eventually planned to be used for in-site booking, so it was important to me that the site be easy to navigate while also being attractive. 
+
+When designing this site, I ended up straying quite a bit from my initial plan for the UX. I elected to not include an about section due to the fact that it simply wasn't necessary and cluttered the website. I also vertically aligned the embedded material in the songs tab rather than aligning them vertically
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
-Wireframes: 
+*Wireframes:* 
 - [Desktop Wireframes](https://imgur.com/a/V1qZIkq)
 - [Mobile Wireframes](https://imgur.com/a/rAPQBax)
 
