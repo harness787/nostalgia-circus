@@ -206,7 +206,7 @@ i {
 
 /*--BACK TO TOP ARROW |  CREDIT TO https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/--*/
 
-@media only screen and (min-width: 1475px) {
+@media(min-width: 1475px) {
     #back2Top {
         width: 25px;
         line-height: 25px;
@@ -234,6 +234,11 @@ i {
     }
 }
 
+@media(max-width:1475px) {
+    .media-wrap {
+        display: none;
+    }
+}
 
 
 

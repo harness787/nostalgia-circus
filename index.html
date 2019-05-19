@@ -82,8 +82,9 @@
 </div>
 
 <!--BACK TO TOP ARROW | CREDIT TO https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/-->
-<a id="back2Top" title="Back to top" href="#">&#10148;</a>
-
+<div class="media-wrap">
+    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+</div>
 </script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -112,25 +113,25 @@
     $(window).scroll(function() {
         $(".arrow").css("opacity", 1 - $(window).scrollTop() / 200);
     });
-    
-//SCROLL UP ARROW | CREDIT TO https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/
-$(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 100) {
-        $('#back2Top').fadeIn();
-    } else {
-        $('#back2Top').fadeOut();
-    }
-});
-$(document).ready(function() {
-    $("#back2Top").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
+
+    //SCROLL UP ARROW | CREDIT TO https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/
+    $(window).scroll(function() {
+        var height = $(window).scrollTop();
+        if (height > 100) {
+            $('#back2Top').fadeIn();
+        }
+        else {
+            $('#back2Top').fadeOut();
+        }
     });
+    $(document).ready(function() {
+        $("#back2Top").click(function(event) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
 
-});
-
+    });
 </script>
 
 </body>
