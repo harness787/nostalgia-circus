@@ -56,12 +56,14 @@ body {
     size: 100%;
 }
 
+/*--WHY | adds background to medium to small screens in order to improve ux and have landing page mesh with about text--*/
 @media only screen and (max-width: 1200px) {
     .navbar {
         background-color: white;
     }
 }
 
+/*--WHY | makes navbar static to large screens in order to improve ux and have landing page mesh with about text--*/
 @media only screen and (min-width: 1475px) {
     .navbar {
         position: static;
@@ -83,6 +85,7 @@ body {
     -webkit-animation: bg 2.5s;
 }
 
+/*--WHY | fixes background bug on mobile browsers--*/
 @supports (-webkit-overflow-scrolling: touch) {
   .bg {
     background: url("../images/bg.png");
@@ -221,7 +224,7 @@ i {
 }
 
 /*--BACK TO TOP ARROW |  CREDIT TO https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/--*/
-
+/*--WHY | gives an option to return to the top of screen due to navbar being static, improves user ux--*/
 @media(min-width: 1475px) {
     #back2Top {
         width: 25px;

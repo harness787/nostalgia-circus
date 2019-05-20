@@ -34,14 +34,12 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - HTML
 - CSS
-- JS
-    * Used for landing page elements
 - JQuery
     * Used for landing page elements
 - [Fontawesome](https://fontawesome.com)
     * Used for icons such as scrolling arrow and social media icons
 - [Bootstrap](https://getbootstrap.com)
-    * Used to speed up development
+    * Used to speed up and organize development
 - [Soundcloud embed tool](https://soundcloud.com)
     * Used to display music on site in a ux-friendly way
 - [Google map embed](https://www.embedgooglemap.net)
