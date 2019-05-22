@@ -73,7 +73,7 @@ In order to clone this repository onto your own machine, first navigate to the m
 ## Credits
 
 ### Content
-- [Codepen](https://codepen.io/bewley/pen/revRQv) by [Will Bewley](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug) 
+- Fading Arrow [Codepen](https://codepen.io/bewley/pen/revRQv) by [Will Bewley](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug) 
     * Used to improve UX on landing page 
 - [Scroll activated fade animation](https://youtu.be/-_ojaBSxhmk) by [Rinkans](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug)
     * Used to improve UX on landing page
