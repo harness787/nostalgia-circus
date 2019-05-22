@@ -7,6 +7,10 @@ body {
     font-weight: 300;
 }
 
+#contact-html {
+    height: 93vh;
+}
+
 .row {
     text-align: center;
 }
@@ -57,6 +61,7 @@ body {
 }
 
 /*--WHY | adds background to medium to small screens in order to improve ux and have landing page mesh with about text--*/
+
 @media only screen and (max-width: 1200px) {
     .navbar {
         background-color: white;
@@ -64,6 +69,7 @@ body {
 }
 
 /*--WHY | makes navbar static to large screens in order to improve ux and have landing page mesh with about text--*/
+
 @media only screen and (min-width: 1475px) {
     .navbar {
         position: static;
@@ -86,19 +92,20 @@ body {
 }
 
 /*--WHY | fixes background bug on mobile browsers--*/
+
 @supports (-webkit-overflow-scrolling: touch) {
-  .bg {
-    background: url("../images/bg.png");
-    height: 100vh;
-    background-attachment: scroll;
-    background-position: right 50% bottom 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation: bg 2.5s;
-    -o-animation: bg 2.5s;
-    -moz-animation: bg 2.5s;
-    -webkit-animation: bg 2.5s;
-}
+    .bg {
+        background: url("../images/bg.png");
+        height: 100vh;
+        background-attachment: scroll;
+        background-position: right 50% bottom 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation: bg 2.5s;
+        -o-animation: bg 2.5s;
+        -moz-animation: bg 2.5s;
+        -webkit-animation: bg 2.5s;
+    }
 }
 
 
@@ -224,7 +231,9 @@ i {
 }
 
 /*--BACK TO TOP ARROW |  CREDIT TO https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/--*/
+
 /*--WHY | gives an option to return to the top of screen due to navbar being static, improves user ux--*/
+
 @media(min-width: 1475px) {
     #back2Top {
         width: 25px;
@@ -378,18 +387,23 @@ i {
 /*--FOOTER--*/
 
 footer {
-    height: 8vh;
+    height: 7vh;
     background-color: #adadad;
-    text-decoration: none;
     font-size: 12px;
+    bottom: 0;
+    width: 100%;
 }
 
 .row-size {
-    height: 8vh;
+    height: 7vh;
 }
 
 /*--WHY | Include a tag to correctly style when hovered--*/
 
 a.footer-text {
     color: black;
+}
+
+.border-foot {
+    border-right: 1px solid;
 }
