@@ -374,3 +374,22 @@ i {
     -moz-animation: bg .5s;
     -webkit-animation: bg .5s;
 }
+
+/*--FOOTER--*/
+
+footer {
+    height: 8vh;
+    background-color: #adadad;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.row-size {
+    height: 8vh;
+}
+
+/*--WHY | Include a tag to correctly style when hovered--*/
+
+a.footer-text {
+    color: black;
+}
