@@ -384,26 +384,3 @@ i {
     -webkit-animation: bg .5s;
 }
 
-/*--FOOTER--*/
-
-footer {
-    height: 7vh;
-    background-color: #adadad;
-    font-size: 12px;
-    bottom: 0;
-    width: 100%;
-}
-
-.row-size {
-    height: 7vh;
-}
-
-/*--WHY | Include a tag to correctly style when hovered--*/
-
-a.footer-text {
-    color: black;
-}
-
-.border-foot {
-    border-right: 1px solid;
-}
