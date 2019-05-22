@@ -17,7 +17,9 @@ I wanted to provide basic infomation on the band for those new to them, informat
 
 ### User Stories
 As a fan of the band, I want to be able to find the band's social media, music, and information on live shows in order to fulfill a personal desire to enjoy the band's music.
+
 As a booking agent, I want to be able to find out basic information on the band and hear their music as well as contact or book the band in order to provide entertainment to event-goers. 
+
 As someone new to the band, I want to be able to find out info about the band and be able to listen to their music in order to gain knowledge about them. 
 
 ## Features
@@ -63,8 +65,12 @@ The contact form will not submit without all forms filled out and the email addr
 The project and its images scale to fit different sizes to optimize UX through the use of bootstrap col classes.  
 
 One bug I was struggling with for a long time was that the testing I was doing on my iPhone was rendering no background image on the landing page. I realized this was due to the "background-attachment:fixed" class not working in mobile browsers. The post on this [StackOverflow](https://stackoverflow.com/questions/30102792/css-media-query-target-only-ios-devices) page helped me solve this problem.
+
 ## Deployment
 I'm currently hosting this site on GitHub pages directly from the master branch at https://harness787.github.io/nostalgia-circus/. 
+To do this, I went to my site's repository and navigated to the settings tab. In the GitHub pages section, I selected the master branch as the source and saved it, creating a GitHub page for my project.  
+
+In order to clone this repository onto your own machine, first navigate to the main page of the repository. Under the repsitory name, click clone or download. Take the link that appears (https://github.com/harness787/nostalgia-circus.git) and go to your terminal, typing `git clone` and pasting the URL you copied. Once this is done, hit enter and your local clone will be created.
 
 ## Credits
 
