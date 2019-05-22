@@ -54,7 +54,7 @@ The last page has a [bootstrap](https://getbootstrap.com) contact form and has i
 
 ## Testing
 
-I'm very happy with how well I acheived the inteded purpose for each of the user stories. I have tested all screen widths for functionality and UX through two browser's inspect element tool (Chrome and Opera) and my iPhone 7 for true mobile testing. 
+I'm very happy with how well I acheived the inteded purpose for each of the user stories. I have tested all screen widths for functionality and UX through two browser's inspect element tool (Chrome and Opera) and my iPhone 7 for true mobile testing. I also sent the deployed GitHub pages link to the band members to test across their devices to ensure that the website was easy to use and held up to their standards. 
 
 The embedded elements in the music page allows the user to play the music in the website. If the user wishes to visit the soundcloud page, they are easily put into a new tab that takes them into the track they are interested in. 
 The links in the upcoming shows page all open in new tabs with the exception of the text located at the bottom of the screen that links to the in-site contact page. The elements respond to hovering and don't overlap. The google maps embed takes the user to the location pinged in a new google maps tab. 
