@@ -15,7 +15,10 @@ I wanted to provide basic infomation on the band for those new to them, informat
 - [Desktop Wireframes](https://imgur.com/a/V1qZIkq)
 - [Mobile Wireframes](https://imgur.com/a/rAPQBax)
 
-
+### User Stories
+As a fan of the band, I want to be able to find the band's social media, music, and information on live shows in order to fulfill a personal desire to enjoy the band's music.
+As a booking agent, I want to be able to find out basic information on the band and hear their music as well as contact or book the band in order to provide entertainment to event-goers. 
+As someone new to the band, I want to be able to find out info about the band and be able to listen to their music in order to gain knowledge about them. 
 
 ## Features
 
@@ -46,12 +49,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     * Used to show a location for the band's next show
 - [HTML Validator](https://validator.w3.org)
     * Used to correct errors in HTML code
-- [Codepen](https://codepen.io/bewley/pen/revRQv) by [Will Bewley](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug) 
-    * Used to improve UX on landing page 
-- [Scroll activated fade animation](https://youtu.be/-_ojaBSxhmk) by [Rinkans](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug)
-    * Used to improve UX on landing page
-- [Scroll activated arrow](https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/) by [html-online.com](https://html-online.com)
-    * Used to improve UX on landing page 
+
 
 
 ## Testing
@@ -71,11 +69,15 @@ I'm currently hosting this site on GitHub pages directly from the master branch 
 ## Credits
 
 ### Content
-- All text was written by me.
+- [Codepen](https://codepen.io/bewley/pen/revRQv) by [Will Bewley](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug) 
+    * Used to improve UX on landing page 
+- [Scroll activated fade animation](https://youtu.be/-_ojaBSxhmk) by [Rinkans](https://www.youtube.com/channel/UC4K51WXJcaAmj2f80yDwFug)
+    * Used to improve UX on landing page
+- [Scroll activated arrow](https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/) by [html-online.com](https://html-online.com)
+    * Used to improve UX on landing page 
 
 ### Media
 - All photos used on this site were developed or taken by me or one of the band members. 
 
 ### Acknowledgements
-
-- I received inspiration for this project from other music artist/band websites like http://www.kidcudi.com and https://injuryreserve.online.
+- I received inspiration for this project from other music artist/band websites such as [Kid Cudi's](http://www.kidcudi.com) and [Injury Reserve's](https://injuryreserve.online) websites.
