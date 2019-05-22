@@ -60,7 +60,7 @@ body {
     size: 100%;
 }
 
-/*--WHY | adds background to medium to small screens in order to improve ux and have landing page mesh with about text--*/
+/*--WHY | adds background to medium to small screens navbar in order to improve ux and have landing page mesh with about text--*/
 
 @media only screen and (max-width: 1200px) {
     .navbar {
@@ -91,7 +91,7 @@ body {
     -webkit-animation: bg 2.5s;
 }
 
-/*--WHY | fixes background bug on mobile browsers--*/
+/*--WHY | fixes background bug on mobile browsers | CREATED WITH THE HELP OF  https://stackoverflow.com/questions/30102792/css-media-query-target-only-ios-devices--*/
 
 @supports (-webkit-overflow-scrolling: touch) {
     .bg {
